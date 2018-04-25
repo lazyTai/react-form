@@ -1,0 +1,29 @@
+.ant-slider-track {
+  position: absolute;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #ff4600;
+  transition: background-color 0.3s ease;
+}
+
+.ant-slider:hover .ant-slider-track {
+  background-color: #ff4600;
+}
+.ant-slider-handle{
+  border: solid 2px #ff4600;
+}
+
+.ant-slider-handle.ant-tooltip-open {
+  border-color: #ff4600;
+}
+.ant-slider-handle:focus {
+  border-color: #ff4600;
+  box-shadow: 0 0 0 5px #ff4600;
+  outline: none;
+}
+.ant-slider:hover .ant-slider-track {
+  background-color: #ff4600;
+}
+.ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open) {
+  border-color: #ff4600;
+}

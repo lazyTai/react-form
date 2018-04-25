@@ -1,0 +1,114 @@
+
+.AccountBalance {
+  padding-right: 20px;
+  height: 360px;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff4600;
+  left: -18px;
+  top: 7px;
+}
+
+.header_title {
+  font-size: 18px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 32px;
+  border-radius: 50px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.count, .not_recorded {
+  font-size: 30px;
+  font-weight: bold;
+
+  small {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ccc;
+  }
+}
+
+.count {
+  margin-bottom: 24px;
+}
+
+.count_not_recorded {
+  margin-top: 84px;
+  margin-bottom: 75px;
+}
+
+/*ms模式的时候*/
+@media screen and (max-width: 768px) {
+  .AccountBalance {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+}
+
+/*md模式的时候*/
+@media screen and (max-width: 1800px) {
+  .count, .not_recorded {
+    font-size: 25px;
+    font-weight: bold;
+
+    small {
+      font-size: 15px;
+      font-weight: 500;
+      color: #ccc;
+    }
+  }
+}
+@media screen and (max-width: 1300px) {
+  .count, .not_recorded {
+    font-size: 21px;
+    font-weight: bold;
+
+    small {
+      font-size: 15px;
+      font-weight: 500;
+      color: #ccc;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .count, .not_recorded {
+    font-size: 18px;
+    font-weight: bold;
+
+    small {
+      font-size: 15px;
+      font-weight: 500;
+      color: #ccc;
+    }
+  }
+}
+

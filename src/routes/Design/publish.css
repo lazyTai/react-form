@@ -1,0 +1,113 @@
+.publish {
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px;
+  padding-bottom: 40px;
+  .header {
+    padding-top: 38px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .image_wrapper {
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-bottom: 27px;
+    height: 194px;
+    width: 405px;
+    border-radius: 5px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+  }
+  .title_wrapper {
+    margin: 0 auto;
+    height: 40px;
+    width: 323px;
+  }
+  .down {
+    margin-top: 48px;
+    .left {
+      padding-left: 40px;
+      flex: 1;
+      margin: 0 auto;
+      .sub_title {
+        font-size: 16px;
+        margin-bottom: 14px;
+        font-weight: bold;
+      }
+
+      .input_text_area {
+        //width: 578px;
+        width: 90%;
+        height: 240px;
+      }
+    }
+    .right {
+      flex: 1;
+      margin: 0 auto;
+      .sub_title {
+        font-size: 16px;
+        margin-bottom: 14px;
+        font-weight: bold;
+        small {
+          color: #d0d0d0;
+        }
+      }
+      .input_text_area {
+        //width: 578px;
+        width: 90%;
+        height: 84px;
+      }
+      .check_box_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .check_box {
+          width: 104px;
+          padding-left: 0px;
+          margin-left: 0px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  .btn_group {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    .button {
+      border-radius: 50px;
+      height: 43px;
+      width: 129px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #eee;
+      &:first-child {
+        margin-right: 20px;
+        color: #ff4600;
+        border: 1px solid #ff4600;
+      }
+      &:last-child {
+        margin-right: 20px;
+        background: #ff4600;
+        border: 1px solid #ff4600;
+        color: #fff;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .right {
+      padding-top: 40px;
+      padding-left: 40px
+    }
+  }
+
+}
+

@@ -1,0 +1,18 @@
+.index_left_slider{
+    background: #ffff;
+    z-index: 4;
+    box-shadow: 2px 0px 5px #ccc;
+}
+.logo_place{
+    height:100px;
+    /* background: #fff; */
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    align-items: center
+}
+.logo_place .logo{
+    width: 200px;
+    height: 30px;
+    background: #fff;
+}

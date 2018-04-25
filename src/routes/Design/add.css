@@ -1,0 +1,90 @@
+
+.Design_add {
+}
+
+.content {
+  margin: 20px;
+  padding-top: 54px;
+  padding-left: 0px;
+  padding-bottom: 54px;
+}
+
+.search_options {
+  .search_options_item {
+    display: flex;
+    .name {
+      font-weight: bold;
+      width: 100px;
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .input {
+      width: 100%;
+    }
+  }
+  .search_options_item:not(:first-child) {
+    padding-left: 20px;
+  }
+}
+
+.drag_upload_wrapper_title {
+  font-size: 22px;
+  color: #ff4600;
+  font-weight: bold;
+  margin-bottom: 42px;
+}
+
+.drag_upload_wrapper {
+  margin-top: 78px;
+  text-align: center;
+}
+
+.uploader_image_wrapper {
+  height: 315px;
+  width: 654px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.drag_wrapper {
+  margin: 0 auto;
+  height: 315px;
+  width: 654px;
+  position: relative;
+}
+
+.uploader_image_wrapper {
+  height: 315px;
+  width: 654px;
+  z-index: 3;
+  left: 0;
+  position: absolute;
+
+  img {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+  }
+}
+
+.drag {
+  height: 315px;
+  width: 654px;
+  z-index: 3;
+  left: 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .search_options_item {
+    padding-left: 0px !important;
+    margin-bottom: 10px;
+  }
+  .drag_wrapper, .drag, .uploader_image_wrapper {
+    width: 400px;
+  }
+}
+
+

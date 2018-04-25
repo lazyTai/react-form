@@ -1,0 +1,48 @@
+.OrderTrend {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 360px;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 100%;
+}
+
+.header {
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-right: 28px;
+  display: flex;
+  position: relative;
+  //margin-bottom: 30px;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff4600;
+  left: -18px;
+  top: 7px;
+}
+
+.header_title {
+  font-size: 18px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 32px;
+  border-radius: 50px;
+  border: 1px solid #eee;
+  text-align: center;
+}

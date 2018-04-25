@@ -1,0 +1,18 @@
+.index_left_side_menu {
+  height: 100%;
+}
+
+.layout_left_menu_content {
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+}
+
+.layout_left_menu_icon {
+  font-size: 20px;
+  margin-right: 20px;
+  height: 52px;
+}
+
+
+

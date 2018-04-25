@@ -1,0 +1,10 @@
+.birdayPicker {
+  width: 400px;
+  display: flex;
+  .group {
+    margin-right: 20px;
+    .sub_span {
+      padding-left: 10px;
+    }
+  }
+}

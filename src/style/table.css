@@ -1,0 +1,30 @@
+.ant-table-thead > tr.ant-table-row-hover > td, .ant-table-tbody > tr.ant-table-row-hover > td, .ant-table-thead > tr:hover > td, .ant-table-tbody > tr:hover > td {
+  background: #f5f5f5;
+}
+
+.ant-pagination-item-active {
+  border-color: #ff4600;
+  font-weight: 500;
+}
+
+.ant-pagination-item-active:focus, .ant-pagination-item-active:hover {
+  border-color: #ff4600;
+}
+.ant-pagination-item-active a {
+  color: #ff4600;
+}
+.ant-pagination-item-active:focus a, .ant-pagination-item-active:hover a {
+  color: #ff4600;
+}
+.ant-pagination-item:focus, .ant-pagination-item:hover {
+  transition: all .3s;
+  border-color: #ff4600;
+}
+.ant-pagination-item:focus a, .ant-pagination-item:hover a {
+  color:  #ff4600;
+}
+
+.ant-pagination-prev:focus .ant-pagination-item-link, .ant-pagination-next:focus .ant-pagination-item-link, .ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link {
+  border-color: #ff4600;
+  color: #ff4600;
+}

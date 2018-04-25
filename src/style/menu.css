@@ -1,0 +1,141 @@
+/*menu 移动上去 border 颜色*/
+.ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-submenu-selected, .ant-menu-horizontal > .ant-menu-submenu:hover {
+  border-bottom: 2px solid #ff4600;
+  color: #ff4600;
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child), .ant-menu-vertical .ant-menu-item:not(:last-child) {
+  margin-bottom: 0 !important;
+  height: 52px;
+}
+
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 52px;
+  height: 52px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* menu submeu height*/
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  line-height: 52px;
+  height: 52px;
+}
+
+/*menu 鼠标移动上面颜色*/
+.ant-menu-item-selected {
+  color: #222;
+}
+
+.ant-menu-item > a:hover {
+  color: #141415;
+}
+
+.ant-menu-item.ant-menu-item-active {
+  color: #222;
+}
+
+/*selected menu color #fff*/
+.ant-menu-item-selected > a,
+.ant-menu-item-selected > a:hover {
+  color: #f7f4f4;
+}
+
+/*menu 点击上去 的颜色*/
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ff4600;
+}
+
+.ant-menu-vertical .ant-menu-item:after,
+.ant-menu-vertical-left .ant-menu-item:after,
+.ant-menu-vertical-right .ant-menu-item:after,
+.ant-menu-inline .ant-menu-item:after {
+  border-right: 3px solid #ff4600;
+}
+
+/*sub menu height*/
+.ant-menu-sub.ant-menu-inline > .ant-menu-item,
+.ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  line-height: 52px;
+  height: 52px;
+}
+
+/*arrow color*/
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #333;
+}
+
+/*arrow mouseover color*/
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:after,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:after,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:after,
+.ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:after,
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:before,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:before,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:before,
+.ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow:before {
+  background: linear-gradient(to right, #141415, #060606);
+}
+
+/*縮小menu之后，mouseover menu icon color*/
+.ant-menu-vertical .ant-menu-submenu-selected,
+.ant-menu-vertical-left .ant-menu-submenu-selected,
+.ant-menu-vertical-right .ant-menu-submenu-selected {
+  color: #ff4600;
+}
+
+/*修复menu 1px*/
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: 0px solid #e8e8e8;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+  border-bottom: 2px solid transparent;
+  //color: #ff4600;
+}
+
+.ant-card-bordered {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+}
+
+.ant-card-body {
+  zoom: 1;
+  border-radius: 8px;
+}
+.ant-menu-sub.ant-menu-inline{
+  border-bottom: 1px solid #f1eded;
+}
+.ant-menu-item.ant-menu-item-active{
+  background: #f5f5f5;
+}
+.ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-active{
+  background: #f5f5f5;
+}
+//.ant-menu-sub.ant-menu-inline {
+//  background: #f5f5f5;
+//}

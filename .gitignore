@@ -12,3 +12,5 @@ runtime/
 /runtime/
 ./dist/stats.html
 dist/stats.html
+
+_book

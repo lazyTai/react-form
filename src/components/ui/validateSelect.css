@@ -1,9 +1,0 @@
-.validateSelect {
-  .error {
-    color: red;
-    font-size: 12px;
-    padding-top: 4px;
-    padding-left: 5px;
-    position: absolute;
-  }
-}

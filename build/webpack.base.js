@@ -8,7 +8,7 @@ const config = {
     extractLess,
     extractCss,
     entry: {
-        index: path.resolve("./src/app.js"),
+        index: path.resolve("./src/index.js"),
     },
     resolve: {},
     externals: {

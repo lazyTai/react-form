@@ -1,3 +1,4 @@
+~~~
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ValidateInput from './compoment/validateInput.js'
@@ -44,3 +45,4 @@ export default class App extends React.Component {
     componentDidMount() {
     }
 }
+~~~
